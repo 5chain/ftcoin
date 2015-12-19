@@ -33,8 +33,8 @@ BOOST_LIB_SUFFIX = -mgw48-mt-1_55
 MINIUPNPC_INCLUDE_PATH=c:/libs/miniupnpc-1.9
 MINIUPNPC_LIB_PATH=c:/libs/miniupnpc-1.9
 
-#QRENCODE_INCLUDE_PATH=c:/libs/qrencode-3.4.4
-#QRENCODE_LIB_PATH=c:/libs/qrencode-3.4.4/.libs
+QRENCODE_INCLUDE_PATH=c:/libs/qrencode-3.4.3
+QRENCODE_LIB_PATH=c:/libs/qrencode-3.4.3/.libs
 
 OBJECTS_DIR = build
 MOC_DIR = build

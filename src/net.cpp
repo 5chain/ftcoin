@@ -18,10 +18,10 @@
 #endif
 
 #ifdef USE_UPNP
-#include <miniupnpc/miniwget.h>
-#include <miniupnpc/miniupnpc.h>
-#include <miniupnpc/upnpcommands.h>
-#include <miniupnpc/upnperrors.h>
+#include <miniwget.h>
+#include <miniupnpc.h>
+#include <upnpcommands.h>
+#include <upnperrors.h>
 #endif
 
 using namespace std;
@@ -997,12 +997,12 @@ void MapPort(bool /* unused fMapPort */)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 // testnet dns seed begins with 't', all else are ftcoin dns seeds.
-static const char *strDNSSeed[][3] = {
+static const char *strDNSSeed[][4] = {
     // NOTE: Only testnet nodes are included in this build. If you are using this
     // for a real ftcoin offering, you will want to remove the "t" that
     // appears before the node name and IP
-      {"114.215.158.78", "123.57.220.195", "49.213.8.56"},
-      {"114.215.158.78", "123.57.220.195", "49.213.8.56"}
+      {"121.42.168.25","121.42.167.81","114.215.158.78", "49.213.8.56"},
+      {"121.42.168.25","121.42.167.81","114.215.158.78", "49.213.8.56"}
 };
 
 void ThreadDNSAddressSeed(void* parg)

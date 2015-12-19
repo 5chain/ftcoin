@@ -1,7 +1,7 @@
 
 CXX ?= g++
 
-USE_UPNP?=-
+USE_UPNP:=1
 USE_IPV6:=1
 
 DEPSDIR?=/usr/local
@@ -16,7 +16,7 @@ INCLUDEPATHS= \
 LIBPATHS= \
  -L"c:\libs\boost_1_55_0\stage\lib" \
  -L"c:\libs\db-4.8.30.NC\build_unix" \
- -L"c:\libs\openssl-1.0.1g"
+ -L"c:\libs\openssl-1.0.1q"
 
 
 LIBS= \
