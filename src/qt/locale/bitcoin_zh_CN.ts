@@ -365,7 +365,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="217"/>
         <source>Prove you control an address</source>
-        <translation>证明您拥有某个比特币地址</translation>
+        <translation>证明您拥有某个福源币地址</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="236"/>
@@ -385,7 +385,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
         <source>Show information about Peershares</source>
-        <translation>显示比特币的相关信息</translation>
+        <translation>显示福源币的相关信息</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="243"/>
@@ -405,7 +405,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="247"/>
         <source>Modify configuration options for Peershares</source>
-        <translation>修改比特币配置选项</translation>
+        <translation>修改福源币配置选项</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
@@ -546,7 +546,7 @@ Are you sure you wish to encrypt your wallet?</source>
         <location filename="../bitcoingui.cpp" line="501"/>
         <source>%n active connection(s) to Peershares network</source>
         <translation>
-            <numerusform>%n 个到比特币网络的活动连接</numerusform>
+            <numerusform>%n 个到福源币网络的活动连接</numerusform>
         </translation>
     </message>
     <message>
@@ -839,7 +839,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
         <source>Automatically start Peershares after the computer is turned on</source>
-        <translation>在计算机启动后自动运行比特币</translation>
+        <translation>在计算机启动后自动运行福源币</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="176"/>
@@ -859,7 +859,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="186"/>
         <source>Automatically open the Peershares client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开比特币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
+        <translation>自动在路由器中打开福源币端口。只有当您的路由器开启 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
@@ -977,7 +977,7 @@ Address: %4
     <message>
         <location filename="../forms/messagepage.ui" line="117"/>
         <source>Sign a message to prove you own this Peershares address</source>
-        <translation>发送签名消息以证明您是该比特币地址的拥有者</translation>
+        <translation>发送签名消息以证明您是该福源币地址的拥有者</translation>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="131"/>
@@ -1004,7 +1004,7 @@ Address: %4
     <message>
         <location filename="../messagepage.cpp" line="74"/>
         <source>%1 is not a valid address.</source>
-        <translation>%1 不是合法的比特币地址。</translation>
+        <translation>%1 不是合法的福源币地址。</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="89"/>
@@ -1903,7 +1903,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
         <source>Unable to bind to port %d on this computer.  Peershares is probably already running.</source>
-        <translation>无法绑定端口 %d 到这台计算机。比特币进程可能已在运行。</translation>
+        <translation>无法绑定端口 %d 到这台计算机。福源币进程可能已在运行。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -2376,7 +2376,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Peershares will not work properly.</source>
-        <translation>警告：请确定您当前计算机的日期和时间是正确的。比特币将无法在错误的时间下正常工作。</translation>
+        <translation>警告：请确定您当前计算机的日期和时间是正确的。福源币将无法在错误的时间下正常工作。</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="122"/>

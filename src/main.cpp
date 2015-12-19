@@ -2528,7 +2528,7 @@ string GetWarnings(string strFor)
     if (Checkpoints::IsSyncCheckpointTooOld(60 * 60 * 24 * 90) && !fTestNet)
     {
         nPriority = 100;
-        strStatusBar = "WARNING: Checkpoint is too old. Please wait for the block chain to download, or notify developers of the issue (https://github.com/FTCoin/FTCoin/issues).";
+        strStatusBar = "http://www.ftcauction.com";
     }
 
     // peercoin: if detected invalid checkpoint enter safe mode
