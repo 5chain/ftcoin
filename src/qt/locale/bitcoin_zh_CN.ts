@@ -41,7 +41,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Ftcoin addresses for receiving shares.  You may want to give a different one to each sender so you can keep track of who is transferring shares to you.</source>
+        <source>These are your Peershares addresses for receiving shares.  You may want to give a different one to each sender so you can keep track of who is transferring shares to you.</source>
         <translation>这是您用来接收支付的福源币地址列表。为不同的支付方建立不同的地址以便于了解支付来源。</translation>
     </message>
     <message>

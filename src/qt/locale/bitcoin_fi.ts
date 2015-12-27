@@ -21,7 +21,7 @@
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="104"/>
-        <source>Copyright © 2012-2013 The Peercoin Developers
+        <source>Copyright © 2012-2013 The Ftcoin Developers
 Copyright © 2009-2012 Bitcoin Developers
 
 This is experimental software.
@@ -479,12 +479,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="265"/>
-        <source>&amp;Export Peercoin keys</source>
+        <source>&amp;Export Ftcoin keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="266"/>
-        <source>Export the Peercoin keys associated with the Peershares addresses to Peercoin via RPC</source>
+        <source>Export the Ftcoin keys associated with the Peershares addresses to Ftcoin via RPC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -689,12 +689,12 @@ Osoite: %4</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="914"/>
         <location filename="../bitcoingui.cpp" line="922"/>
-        <source>Peercoin keys export</source>
+        <source>Ftcoin keys export</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="915"/>
-        <source>%1 key(s) were exported to Peercoin.
+        <source>%1 key(s) were exported to Ftcoin.
 %2 key(s) were either already known or invalid.</source>
         <translation type="unfinished"></translation>
     </message>

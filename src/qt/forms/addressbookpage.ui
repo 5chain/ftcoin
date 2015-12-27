@@ -17,7 +17,7 @@
    <item>
     <widget class="QLabel" name="labelExplanation">
      <property name="text">
-      <string>These are your Ftcoin addresses for receiving shares.  You may want to give a different one to each sender so you can keep track of who is transferring shares to you.</string>
+      <string>These are your Peershares addresses for receiving shares.  You may want to give a different one to each sender so you can keep track of who is transferring shares to you.</string>
      </property>
      <property name="textFormat">
       <enum>Qt::AutoText</enum>

@@ -6,22 +6,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Peershares</source>
-        <translation>關於位元幣</translation>
+        <source>About Ftcoin</source>
+        <translation>關於福源幣</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Peershares&lt;/b&gt; : version</source>
-        <translation></translation>
+        <source>&lt;b&gt;Ftcoin&lt;/b&gt; : version</source>
+        <translation>錢包版本</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="91"/>
-        <source>Copyright © 2013-2014 Peershares Developers</source>
+        <source>Copyright © 2013-2014 Ftcoin Developers</source>
         <translation></translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="104"/>
-        <source>Copyright © 2012-2013 The Peercoin Developers
+        <source>Copyright © 2012-2013 The Ftcoin Developers
 Copyright © 2009-2012 Bitcoin Developers
 
 This is experimental software.
@@ -42,7 +42,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
         <source>These are your Peershares addresses for receiving shares.  You may want to give a different one to each sender so you can keep track of who is transferring shares to you.</source>
-        <translation type="unfinished"></translation>
+        <translation>這是您用來接收支付的福源幣地址列表。為不同的支付方建立不同的地址以便於了解支付來源。</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="33"/>
@@ -76,7 +76,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="96"/>
-        <source>Sign a message to prove you own this Peershares address</source>
+        <source>Sign a message to prove you own this Ftcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -244,7 +244,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="112"/>
-        <source>Peershares will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peershares from being stolen by malware infecting your computer.</source>
+        <source>Ftcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peershares from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -299,13 +299,13 @@ Are you sure you wish to encrypt your wallet?</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="128"/>
-        <source>A fatal error occured. Peershares can no longer continue safely and will quit.</source>
+        <source>A fatal error occured. Ftcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="78"/>
-        <source>Peershares Portfolio</source>
-        <translation type="unfinished">位元幣錢包</translation>
+        <source>Ftcoin Portfolio</source>
+        <translation type="unfinished">福源幣錢包</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="186"/>
@@ -340,7 +340,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="204"/>
         <source>&amp;Receive shares</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">接收</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="205"/>
@@ -350,11 +350,11 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
         <source>&amp;Send shares</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">發送</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="211"/>
-        <source>Send shares to a Peershares address</source>
+        <source>Send shares to a Ftcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -384,8 +384,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="241"/>
-        <source>Show information about Peershares</source>
-        <translation type="unfinished">顯示位元幣相關資訊</translation>
+        <source>Show information about Ftcoin</source>
+        <translation type="unfinished">顯示福源幣相關資訊</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="243"/>
@@ -404,17 +404,17 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="247"/>
-        <source>Modify configuration options for Peershares</source>
-        <translation type="unfinished">修改位元幣的設定選項</translation>
+        <source>Modify configuration options for Ftcoin</source>
+        <translation type="unfinished">修改福源幣的設定選項</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show/Hide &amp;Peershares</source>
+        <source>Show/Hide &amp;Ftcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="250"/>
-        <source>Show or hide the Peershares window</source>
+        <source>Show or hide the Ftcoin window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -479,12 +479,12 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="265"/>
-        <source>&amp;Export Peercoin keys</source>
+        <source>&amp;Export Ftcoin keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="266"/>
-        <source>Export the Peercoin keys associated with the Peershares addresses to Peercoin via RPC</source>
+        <source>Export the Ftcoin keys associated with the Ftcoin addresses to Ftcoin via RPC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -534,19 +534,19 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="410"/>
-        <source>Peershares client</source>
+        <source>Ftcoin client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="437"/>
-        <source>Peershares-qt</source>
-        <translation type="unfinished">Peershares-qt</translation>
+        <source>Ftcoin-qt</source>
+        <translation type="unfinished">Ftcoin-qt</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="501"/>
-        <source>%n active connection(s) to Peershares network</source>
+        <source>%n active connection(s) to Ftcoin network</source>
         <translation type="unfinished">
-            <numerusform>與位元幣網路有 %n 個連線在使用中</numerusform>
+            <numerusform>與福源幣網路有 %n 個連線在使用中</numerusform>
         </translation>
     </message>
     <message>
@@ -684,12 +684,12 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="914"/>
         <location filename="../bitcoingui.cpp" line="922"/>
-        <source>Peercoin keys export</source>
+        <source>Ftcoin keys export</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="915"/>
-        <source>%1 key(s) were exported to Peercoin.
+        <source>%1 key(s) were exported to Ftcoin.
 %2 key(s) were either already known or invalid.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -718,7 +718,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="286"/>
-        <source>Whether to show Peershares addresses in the transaction list</source>
+        <source>Whether to show Ftcoin addresses in the transaction list</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -837,8 +837,8 @@ Address: %4
     <name>MainOptionsPage</name>
     <message>
         <location filename="../optionsdialog.cpp" line="172"/>
-        <source>Automatically start Peershares after the computer is turned on</source>
-        <translation>電腦開啟後自動啟動位元幣</translation>
+        <source>Automatically start Ftcoin after the computer is turned on</source>
+        <translation>電腦開啟後自動啟動福源幣</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="176"/>
@@ -857,12 +857,12 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="186"/>
-        <source>Automatically open the Peershares client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由器上開啟位元幣的客戶端通訊埠. 只有在你的路由器支援 UPnP 且開啟時才有作用.</translation>
+        <source>Automatically open the Ftcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動在路由器上開啟福源幣的客戶端通訊埠. 只有在你的路由器支援 UPnP 且開啟時才有作用.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="190"/>
-        <source>Connect to the Peershares network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
+        <source>Connect to the Ftcoin network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -892,7 +892,7 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="171"/>
-        <source>&amp;Start Peershares on system startup</source>
+        <source>&amp;Start Ftcoin on system startup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -935,7 +935,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="20"/>
-        <source>You can sign messages with your Peershares addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages with your Ftcoin addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -975,7 +975,7 @@ Address: %4
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="117"/>
-        <source>Sign a message to prove you own this Peershares address</source>
+        <source>Sign a message to prove you own this Ftcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1164,7 +1164,7 @@ Address: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Peershares Debugging Window</source>
+        <source>Ftcoin Debugging Window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1256,7 +1256,7 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="306"/>
-        <source>Welcome to the Peershares RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <source>Welcome to the Ftcoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1430,7 +1430,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="25"/>
-        <source>Enter a Peershares address</source>
+        <source>Enter a Ftcoin address</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1901,8 +1901,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="8"/>
-        <source>Unable to bind to port %d on this computer.  Peershares is probably already running.</source>
-        <translation type="unfinished">無法與這台電腦上的通訊埠 %d 連結. 也許 Peershares 已經在執行了.</translation>
+        <source>Unable to bind to port %d on this computer.  Ftcoin is probably already running.</source>
+        <translation type="unfinished">無法與這台電腦上的通訊埠 %d 連結. 也許 Ftcoin 已經在執行了.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="11"/>
@@ -1911,8 +1911,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="12"/>
-        <source>Peershares version</source>
-        <translation type="unfinished">位元幣版本</translation>
+        <source>Ftcoin version</source>
+        <translation type="unfinished">福源幣版本</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="13"/>
@@ -1955,13 +1955,13 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="20"/>
         <source>Generate coins</source>
-        <translation type="unfinished">生產位元幣
+        <translation type="unfinished">生產福源幣
 </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="21"/>
         <source>Don&apos;t generate coins</source>
-        <translation type="unfinished">不生產位元幣
+        <translation type="unfinished">不生產福源幣
 </translation>
     </message>
     <message>
@@ -2063,12 +2063,12 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="42"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation type="unfinished">每個連線的接收緩衝區大小上限為 &lt;n&gt;*1000 位元組 (預設: 10000)</translation>
+        <translation type="unfinished">每個連線的接收緩衝區大小上限為 &lt;n&gt;*1000 福源組 (預設: 10000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 10000)</source>
-        <translation type="unfinished">每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 位元組 (預設: 10000)</translation>
+        <translation type="unfinished">每個連線的傳送緩衝區大小上限為 &lt;n&gt;*1000 福源組 (預設: 10000)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2222,12 +2222,12 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="78"/>
-        <source>Cannot obtain a lock on data directory %s.  Peershares is probably already running.</source>
-        <translation type="unfinished">無法鎖定資料目錄 %s. 也許位元幣已經在執行了.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Ftcoin is probably already running.</source>
+        <translation type="unfinished">無法鎖定資料目錄 %s. 也許福源幣已經在執行了.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="81"/>
-        <source>Peershares</source>
+        <source>Ftcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2262,12 +2262,12 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="88"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peershares</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ftcoin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="89"/>
-        <source>Wallet needed to be rewritten: restart Peershares to complete</source>
+        <source>Wallet needed to be rewritten: restart Ftcoin to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2356,8 +2356,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="119"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Peershares will not work properly.</source>
-        <translation type="unfinished">警告: 請檢查電腦時間日期是否正確. 位元幣無法在時鐘不準的情況下正常運作.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Ftcoin will not work properly.</source>
+        <translation type="unfinished">警告: 請檢查電腦時間日期是否正確. 福源幣無法在時鐘不準的情況下正常運作.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="122"/>
